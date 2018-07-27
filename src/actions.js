@@ -1,7 +1,7 @@
 // Step 2: List out all the ways we could change state
 
-const INCREMENT = 'INCREMENT';
-const DECREMENT = 'DECREMENT';
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';
 
 /*
     {
@@ -12,6 +12,7 @@ const DECREMENT = 'DECREMENT';
     }
 */
 
+// These are action creators, which cut down on typos
 // uses implicit return - note the parens around the return object
 const actionIncrement = () => ({
     type: INCREMENT
@@ -20,3 +21,4 @@ const actionIncrement = () => ({
 const actionDecrement = () => ({
     type: DECREMENT
 });
+
