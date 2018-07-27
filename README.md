@@ -1,1 +1,1 @@
-Intro to REDUX.. small exercise
+Intro to REDUX.. small exercise using counters..
