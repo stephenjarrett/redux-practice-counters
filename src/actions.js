@@ -14,11 +14,11 @@ export const DECREMENT = 'DECREMENT';
 
 // These are action creators, which cut down on typos
 // uses implicit return - note the parens around the return object
-const actionIncrement = () => ({
+export const actionIncrement = () => ({
     type: INCREMENT
 });
 
-const actionDecrement = () => ({
+export const actionDecrement = () => ({
     type: DECREMENT
 });
 
